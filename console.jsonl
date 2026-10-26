@@ -1,0 +1,488 @@
+{"level":"debug","message":"[vite] connected.","timestamp":1792243101563}
+{"level":"debug","message":"[vite] connected.","timestamp":1792243108442}
+{"level":"debug","message":"[vite] hot updated: /src/App.tsx","timestamp":1792243232893}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243232893}
+{"level":"debug","message":"[vite] hot updated: /src/App.tsx","timestamp":1792243236995}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243236995}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792243327756}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243327757}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792243330554}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243330554}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792243353301}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243353301}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792243353555}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243353555}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243383163}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243383163}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243455268}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243455268}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243455484}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243455484}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243484526}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243484526}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243484760}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243484760}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243513423}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243513423}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243581527}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243581528}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243600849}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243600849}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243641629}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243641629}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792243645551}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243645551}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792243663741}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243663741}
+{"level":"debug","message":"[vite] connected.","timestamp":1792243676284}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792243735175}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243735175}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792243735386}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243735386}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792243788426}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243788426}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243872434}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243872434}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243903457}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243903457}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243973089}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243973089}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243985251}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243985251}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792243997543}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792243997543}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244022682}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244022682}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244046160}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244046160}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244076874}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244076874}
+{"level":"debug","message":"[vite] connected.","timestamp":1792244129835}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792244137668}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244137668}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244167211}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244167211}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244181594}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244181594}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244196686}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244196687}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1792244375844}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244375844}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244375844}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792244375844}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244538948}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244538948}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244538948}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792244539173}
+{"level":"debug","message":"[vite] connected.","timestamp":1792244560130}
+{"level":"debug","message":"[vite] connected.","timestamp":1792244578915}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244715181}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244715181}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244715181}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792244715586}
+{"level":"debug","message":"[vite] connected.","timestamp":1792244725007}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792244728373}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792244763412}
+{"level":"debug","message":"[vite] connected.","timestamp":1792244768234}
+{"level":"debug","message":"[vite] connected.","timestamp":1792244799968}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792244842291}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244948503}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244948503}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244948503}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244951273}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244951273}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244951273}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792244951273}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244988540}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244988541}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244988541}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792244988541}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792244989390}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792244989390}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792244989390}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792244989390}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245194114}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245194114}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245194114}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245195444}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245195444}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245195444}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792245195444}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245436451}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792245436451}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245436451}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245436451}
+{"level":"debug","message":"[vite] connected.","timestamp":1792245450708}
+{"level":"debug","message":"[vite] connected.","timestamp":1792245461466}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245466886}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792245466886}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245466886}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245466886}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245487573}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792245487573}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245487573}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245487574}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245488306}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245488306}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245488881}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792245488882}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245488882}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245488882}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245489245}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245489245}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245507473}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245507473}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245507631}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245507631}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245528750}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245528750}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245529102}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245529102}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245537690}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245537690}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245537743}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245537744}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245566236}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245566236}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245568447}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245568447}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245596689}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245596689}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245596690}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245596690}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245631947}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245631947}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245631948}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245631948}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245632774}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245632774}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245633151}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245633151}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245643562}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245643562}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245643563}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245643563}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245687666}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245687666}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245687819}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245687819}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245743381}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245743381}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245748306}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245748306}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1792245810249}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792245810249}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245810249}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245810249}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1792245810561}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792245810561}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792245810561}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792245810561}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1792245927224}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245927224}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1792245928759}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245928759}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792245996850}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245996850}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1792245996851}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792245996851}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792246004465}
+{"level":"debug","message":"[vite] connected.","timestamp":1792246038887}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792246523448}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792246523448}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792246523448}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792246524478}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792246524478}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792246524478}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792246524478}
+{"level":"debug","message":"[vite] connected.","timestamp":1792246929811}
+{"level":"debug","message":"[vite] connected.","timestamp":1792247388997}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792247406081}
+{"level":"debug","message":"[vite] connected.","timestamp":1792247414454}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792247783661}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792247783661}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792247783662}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792247795246}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1792247795246}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792247795246}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792247795246}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792247876574}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792247876574}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792247904189}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792247904190}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247904210,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247901668:603:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247901668:603:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247904226,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247901668:603:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247901668:603:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"The above error occurred in the <EventCard> component:\n\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247901668:39:37)\n    at div\n    at EventList (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventList.tsx:32:55)\n    at main\n    at div\n    at App (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/App.tsx:33:27)\n    at Le (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:18793:42)\n    at Web3ContextProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:34420:30)\n    at ConnectKitProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:37910:29)\n    at QueryClientProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WZEH4STI.js?v=ed645da4:39:30)\n    at Hydrate (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:392:11)\n    at WagmiProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:414:11)\n\nConsider adding an error boundary to your tree to customize error handling behavior.\nVisit https://reactjs.org/link/error-boundaries to learn more about error boundaries.","timestamp":1792247904229}
+{"level":"error","message":"Unhandled promise rejection: ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247901668:603:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)","timestamp":1792247904231,"stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247901668:603:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)"}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792247927715}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792247927715}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247927741,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247927748,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"The above error occurred in the <EventCard> component:\n\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:39:37)\n    at div\n    at EventList (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventList.tsx?t=1792247875387:32:55)\n    at main\n    at div\n    at App (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/App.tsx?t=1792247875387:33:27)\n    at Le (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:18793:42)\n    at Web3ContextProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:34420:30)\n    at ConnectKitProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:37910:29)\n    at QueryClientProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WZEH4STI.js?v=ed645da4:39:30)\n    at Hydrate (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:392:11)\n    at WagmiProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:414:11)\n\nConsider adding an error boundary to your tree to customize error handling behavior.\nVisit https://reactjs.org/link/error-boundaries to learn more about error boundaries.","timestamp":1792247927751}
+{"level":"error","message":"Unhandled promise rejection: ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)","timestamp":1792247927755,"stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)"}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792247927768}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792247927768}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247927789,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247927796,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"The above error occurred in the <EventCard> component:\n\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:39:37)\n    at div\n    at EventList (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventList.tsx:32:55)\n    at main\n    at div\n    at App (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/App.tsx:33:27)\n    at Le (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:18793:42)\n    at Web3ContextProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:34420:30)\n    at ConnectKitProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:37910:29)\n    at QueryClientProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WZEH4STI.js?v=ed645da4:39:30)\n    at Hydrate (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:392:11)\n    at WagmiProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:414:11)\n\nConsider adding an error boundary to your tree to customize error handling behavior.\nVisit https://reactjs.org/link/error-boundaries to learn more about error boundaries.","timestamp":1792247927800}
+{"level":"error","message":"Unhandled promise rejection: ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)","timestamp":1792247927802,"stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247926842:601:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)"}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792247957538}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792247957538}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247957564,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247957575,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"The above error occurred in the <EventCard> component:\n\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:39:37)\n    at div\n    at EventList (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventList.tsx?t=1792247875387:32:55)\n    at main\n    at div\n    at App (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/App.tsx?t=1792247875387:33:27)\n    at Le (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:18793:42)\n    at Web3ContextProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:34420:30)\n    at ConnectKitProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:37910:29)\n    at QueryClientProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WZEH4STI.js?v=ed645da4:39:30)\n    at Hydrate (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:392:11)\n    at WagmiProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:414:11)\n\nConsider adding an error boundary to your tree to customize error handling behavior.\nVisit https://reactjs.org/link/error-boundaries to learn more about error boundaries.","timestamp":1792247957581}
+{"level":"error","message":"Unhandled promise rejection: ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)","timestamp":1792247957586,"stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)"}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792247957791}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792247957791}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247957811,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"Uncaught ReferenceError: showMarkInput is not defined","timestamp":1792247957817,"source":"https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13","stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at HTMLUnknownElement.callCallback2 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10558:22)\n    at HTMLUnknownElement.dispatchEvent (chrome-extension://gacgndbocaddlemdiaadajmlggabdeod/inject.chrome.11349145.js:85:59958)\n    at Object.invokeGuardedCallbackDev (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10583:24)\n    at invokeGuardedCallback (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:10617:39)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26696:15)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)"}
+{"level":"error","message":"The above error occurred in the <EventCard> component:\n\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:39:37)\n    at div\n    at EventList (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventList.tsx:32:55)\n    at main\n    at div\n    at App (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/App.tsx:33:27)\n    at Le (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:18793:42)\n    at Web3ContextProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:34420:30)\n    at ConnectKitProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/connectkit.js?v=ed645da4:37910:29)\n    at QueryClientProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WZEH4STI.js?v=ed645da4:39:30)\n    at Hydrate (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:392:11)\n    at WagmiProvider (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-WPFSLU33.js?v=ed645da4:414:11)\n\nConsider adding an error boundary to your tree to customize error handling behavior.\nVisit https://reactjs.org/link/error-boundaries to learn more about error boundaries.","timestamp":1792247957821}
+{"level":"error","message":"Unhandled promise rejection: ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)","timestamp":1792247957822,"stack":"ReferenceError: showMarkInput is not defined\n    at EventCard (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/src/components/EventCard.tsx?t=1792247956819:592:13)\n    at renderWithHooks (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:18474:26)\n    at mountIndeterminateComponent (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:21852:21)\n    at beginWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:22840:22)\n    at beginWork$1 (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26684:22)\n    at performUnitOfWork (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26129:20)\n    at workLoopSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26068:13)\n    at renderRootSync (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:26047:15)\n    at recoverFromConcurrentError (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25664:28)\n    at performSyncWorkOnRoot (https://iznb03915ddsfptjt9rvs.preview.studio.arc.io/node_modules/.vite/deps/chunk-YI6NTZAD.js?v=ed645da4:25810:28)"}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792248006323}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792248006323}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792248006850}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792248006851}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792248044188}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792248074031}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792248074031}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792248190402}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792248190402}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1792248190723}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792248190723}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792248265957}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792248265961}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792248369568}
+{"level":"debug","message":"[vite] connected.","timestamp":1792248376063}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792248385405}
+{"level":"debug","message":"[vite] connected.","timestamp":1792248394078}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792248397164}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792248397171}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792248942863}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792248942884}
+{"level":"debug","message":"[vite] connected.","timestamp":1792249091850}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792249396107}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1792249401389}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793011471766}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793011471766}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793011471766}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793011473534}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793011473535}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793011473535}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1793011473535}
+{"level":"debug","message":"[vite] connected.","timestamp":1793011476425}
+{"level":"debug","message":"[vite] connected.","timestamp":1793012247008}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793012510524}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793012510525}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793012510525}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793012511802}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793012511802}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793012511802}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1793012512134}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793013083558}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793013083558}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793013083558}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793013084568}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793013084569}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793013084569}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1793013084569}
+{"level":"debug","message":"[vite] connected.","timestamp":1793013090361}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1793014229595}
+{"level":"debug","message":"[vite] connected.","timestamp":1793014272362}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793014683634}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793014683634}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793014683634}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1793014683634}
+{"level":"debug","message":"[vite] connected.","timestamp":1793014805999}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793017615519}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793017615519}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793017615519}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793017616458}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793017616458}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793017616458}
+{"level":"log","message":"[vite] server connection lost. Polling for restart...","timestamp":1793017616458}
+{"level":"error","message":"[vite] SyntaxError: The requested module '/src/contract.ts?t=1793018126671' does not provide an export named 'ABI'","timestamp":1793018127626,"stack":"SyntaxError: The requested module '/src/contract.ts?t=1793018126671' does not provide an export named 'ABI'"}
+{"level":"error","message":"[vite] Failed to reload /src/components/CreateEventModal.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1793018127626}
+{"level":"error","message":"[vite] SyntaxError: The requested module '/src/contract.ts?t=1793018126671' does not provide an export named 'ABI'","timestamp":1793018127627,"stack":"SyntaxError: The requested module '/src/contract.ts?t=1793018126671' does not provide an export named 'ABI'"}
+{"level":"error","message":"[vite] Failed to reload /src/components/EventList.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1793018127627}
+{"level":"error","message":"[vite] SyntaxError: The requested module '/src/contract.ts?t=1793018126671' does not provide an export named 'ABI'","timestamp":1793018127627,"stack":"SyntaxError: The requested module '/src/contract.ts?t=1793018126671' does not provide an export named 'ABI'"}
+{"level":"error","message":"[vite] Failed to reload /src/components/EventCard.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1793018127627}
+{"level":"error","message":"[vite] SyntaxError: The requested module '/src/contract.ts?t=1793018126671' does not provide an export named 'ABI'","timestamp":1793018127627,"stack":"SyntaxError: The requested module '/src/contract.ts?t=1793018126671' does not provide an export named 'ABI'"}
+{"level":"error","message":"[vite] Failed to reload /src/components/AttendeeList.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1793018127627}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018127627}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventList.tsx","timestamp":1793018127627}
+{"level":"debug","message":"[vite] hot updated: /src/components/CreateEventModal.tsx","timestamp":1793018127627}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793018127627}
+{"level":"debug","message":"[vite] hot updated: /src/components/AttendeeList.tsx","timestamp":1793018127627}
+{"level":"debug","message":"[vite] invalidate /src/components/EventCard.tsx: Could not Fast Refresh (new export)","timestamp":1793018156920}
+{"level":"debug","message":"[vite] hot updated: /src/components/EventCard.tsx","timestamp":1793018156921}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018156921}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018458344}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018458344}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018478668}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018478668}
+{"level":"debug","message":"[vite] connected.","timestamp":1793018478794}
+{"level":"debug","message":"[vite] connected.","timestamp":1793018495986}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018495989}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018495989}
+{"level":"debug","message":"[vite] connected.","timestamp":1793018512918}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018512969}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018512969}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018517680}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018517680}
+{"level":"debug","message":"[vite] connected.","timestamp":1793018517743}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018534083}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018534083}
+{"level":"debug","message":"[vite] connected.","timestamp":1793018534107}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018557122}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018557122}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018582157}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018582157}
+{"level":"debug","message":"[vite] connected.","timestamp":1793018582181}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018623275}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018623275}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018626001}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018626001}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018628524}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018628524}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018633090}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018633090}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018637699}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018637699}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018640784}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018640784}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018645094}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018645094}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018647329}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018647329}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018650249}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018650249}
+{"level":"debug","message":"[vite] hot updated: /src/pages/MyEventsPage.tsx","timestamp":1793018653463}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018653463}
+{"level":"debug","message":"[vite] hot updated: /src/pages/MyEventsPage.tsx","timestamp":1793018655915}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018655915}
+{"level":"debug","message":"[vite] hot updated: /src/pages/MyEventsPage.tsx","timestamp":1793018661378}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018661378}
+{"level":"debug","message":"[vite] hot updated: /src/pages/MyEventsPage.tsx","timestamp":1793018663641}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018663641}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793018667107}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018667107}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793018672072}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018672072}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793018676879}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018676879}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793018679497}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018679497}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CheckInPage.tsx","timestamp":1793018685580}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018685580}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CheckInPage.tsx","timestamp":1793018688267}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018688267}
+{"level":"debug","message":"[vite] hot updated: /src/pages/SponsorPoolPage.tsx","timestamp":1793018693673}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018693673}
+{"level":"debug","message":"[vite] hot updated: /src/pages/SponsorPoolPage.tsx","timestamp":1793018696142}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018696142}
+{"level":"debug","message":"[vite] hot updated: /src/pages/SponsorPoolPage.tsx","timestamp":1793018701423}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018701423}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793018712919}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018712920}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793018714996}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018714996}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793018719361}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018719361}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793018721622}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018721622}
+{"level":"debug","message":"(previous line repeated 3× more)","timestamp":1793018767084}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CoverLogPage.tsx","timestamp":1793018767084}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018767084}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CoverLogPage.tsx","timestamp":1793018773314}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018773314}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LandingPage.tsx","timestamp":1793018780077}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018780077}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018792405}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018792405}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793018807382}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018807382}
+{"level":"error","message":"[vite] Failed to reload /src/pages/OrganiserDashboardPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1793018841027}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793018841675}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018841675}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793018844901}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018844901}
+{"level":"error","message":"[vite] Failed to reload /src/pages/OrganiserDashboardPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1793018850873}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793018851433}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018851433}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793018854418}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018854419}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018857318}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018857318}
+{"level":"debug","message":"[vite] hot updated: /src/pages/MyEventsPage.tsx","timestamp":1793018860338}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018860338}
+{"level":"debug","message":"[vite] hot updated: /src/pages/MyEventsPage.tsx","timestamp":1793018863032}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018863033}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018882642}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018882643}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018885810}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018885810}
+{"level":"debug","message":"[vite] hot updated: /src/pages/SponsorPoolPage.tsx","timestamp":1793018889443}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018889444}
+{"level":"debug","message":"(previous line repeated 2× more)","timestamp":1793018908283}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793018908283}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018908283}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018913966}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018913966}
+{"level":"debug","message":"[vite] connected.","timestamp":1793018925496}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018925530}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018925530}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018939188}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018939188}
+{"level":"debug","message":"[vite] connected.","timestamp":1793018939416}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793018954032}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793018954032}
+{"level":"debug","message":"[vite] connected.","timestamp":1793018954188}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793018960601}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018960601}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018977643}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018977643}
+{"level":"debug","message":"[vite] hot updated: /src/pages/SponsorPoolPage.tsx","timestamp":1793018980623}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018980623}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793018985567}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018985567}
+{"level":"debug","message":"[vite] hot updated: /src/pages/SponsorPoolPage.tsx","timestamp":1793018988234}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018988234}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793018990974}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018990974}
+{"level":"debug","message":"[vite] hot updated: /src/pages/EventDetailPage.tsx","timestamp":1793018996420}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793018996420}
+{"level":"debug","message":"(previous line repeated 4× more)","timestamp":1793019056541}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793019056541}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019056541}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793019066037}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019066037}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateEventPage.tsx","timestamp":1793019083747}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019083747}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CheckInPage.tsx","timestamp":1793019087244}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019087244}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CheckInPage.tsx","timestamp":1793019095161}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019095161}
+{"level":"debug","message":"[vite] hot updated: /src/pages/MyEventsPage.tsx","timestamp":1793019103769}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019103769}
+{"level":"debug","message":"[vite] hot updated: /src/pages/MyEventsPage.tsx","timestamp":1793019106664}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019106664}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793019110695}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019110695}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793019113321}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019113321}
+{"level":"debug","message":"[vite] hot updated: /src/pages/OrganiserDashboardPage.tsx","timestamp":1793019121414}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019121414}
+{"level":"debug","message":"[vite] hot updated: /src/pages/SponsorPoolPage.tsx","timestamp":1793019124450}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1793019124450}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793019180826}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793019180826}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793019196223}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793019196223}
+{"level":"debug","message":"[vite] connected.","timestamp":1793019196356}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793019212165}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793019212165}
+{"level":"debug","message":"[vite] connected.","timestamp":1793019212184}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793019222109}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793019222109}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.","timestamp":1793019222893}
+{"level":"warn","message":"⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.","timestamp":1793019222893}
