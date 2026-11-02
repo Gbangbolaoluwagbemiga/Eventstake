@@ -5,7 +5,9 @@
  */
 
 // arc-studio-allow-onchain-literal
-export const CONTRACT_ADDRESS = (import.meta.env['VITE_CONTRACT_ADDRESS'] ?? '') as `0x${string}`
+export const CONTRACT_ADDRESS = (
+  import.meta.env['VITE_CONTRACT_ADDRESS'] ?? '0x5154cD2470e8FC0FdBa2a983A35895669A81fe95'
+) as `0x${string}`
 
 export const CONTRACT_ABI = [
   {

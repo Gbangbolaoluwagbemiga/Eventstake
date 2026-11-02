@@ -9,7 +9,7 @@
  *
  * Environment variables:
  *   ORGANISER_PRIVATE_KEY   — 0x-prefixed private key, required only for create_event
- *   EVENTSTAKE_RPC_URL      — optional override for the Arc Testnet RPC endpoint
+ *   EVENTSTAKE_RPC_URL      — optional override for the Arc Mainnet RPC endpoint
  *   EVENTSTAKE_CONTRACT     — optional override for the contract address
  */
 
@@ -34,9 +34,9 @@ import { privateKeyToAccount } from 'viem/accounts'
 // ---------------------------------------------------------------------------
 
 // arc-studio-allow-onchain-literal
-const DEFAULT_RPC = 'https://rpc.testnet.arc.io'
+const DEFAULT_RPC = 'https://rpc.mainnet.arc.io'
 // arc-studio-allow-onchain-literal
-const DEFAULT_CONTRACT: Address = '0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75'
+const DEFAULT_CONTRACT: Address = '0x5154cD2470e8FC0FdBa2a983A35895669A81fe95'
 // arc-studio-allow-onchain-literal
 const USDC_ADDRESS: Address = '0x3600000000000000000000000000000000000000'
 
@@ -45,8 +45,8 @@ const CONTRACT_ADDRESS: Address = (process.env['EVENTSTAKE_CONTRACT'] as Address
 const USDC_DECIMALS = 6
 
 const ARC_TESTNET: Chain = {
-  id: 5042002,
-  name: 'Arc Testnet',
+  id: 5042,
+  name: 'Arc Mainnet',
   nativeCurrency: { name: 'USDC', symbol: 'USDC', decimals: 18 },
   rpcUrls: { default: { http: [RPC_URL] } },
 }
@@ -427,7 +427,7 @@ Returns the transaction hash once the transaction is submitted.`,
         text: JSON.stringify({
           status: 'submitted',
           txHash,
-          explorer: `https://explorer.testnet.arc.io/tx/${txHash}`,
+          explorer: `https://explorer.mainnet.arc.io/tx/${txHash}`,
         }, null, 2),
       }],
     }

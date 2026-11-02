@@ -8,7 +8,7 @@ This is the **project memory** — what Arc Studio remembers about building this
 
 ## What This App Does
 
-USDC stake-to-attend event check-in dApp on Arc Testnet. Key features:
+USDC stake-to-attend event check-in dApp on Arc Mainnet. Key features:
 
 - Organisers create events with a USDC stake, max attendees, rotating venue codes, and an optional sponsor pool seed.
 - Attendees register by staking USDC; check in with a rotating venue code (anti-front-running: stored hash = `keccak256(preimage || attendeeAddr)`).
@@ -22,14 +22,13 @@ USDC stake-to-attend event check-in dApp on Arc Testnet. Key features:
 
 ## Contracts
 
-- **EventCheckIn v3** (`contracts/EventCheckIn.sol`) — current, deployed on Arc Testnet
-  - Address: `0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75`
-  - Explorer: https://explorer.testnet.arc.io/address/0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75
-  - Deploy tx: `0x745dcb50f1d939687bc65ff9b856754969dc5f7aead67240da893d2364612dd6`
-  - Deployer wallet ID: `3c2464b2-8369-52e2-a782-800bbeca5396`
+- **EventCheckIn v3** (`contracts/EventCheckIn.sol`) — current, deployed on **Arc Mainnet**
+  - Address: `0x5154cD2470e8FC0FdBa2a983A35895669A81fe95`
+  - Explorer: https://explorer.mainnet.arc.io/address/0x5154cD2470e8FC0FdBa2a983A35895669A81fe95
   - Constructor: `(address _usdc)` — USDC address: `0x3600000000000000000000000000000000000000`
   - ABI: defined inline in `src/contract.ts`
 
+- **EventCheckIn v3** (testnet, deprecated): `0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75` (Arc Testnet)
 - **EventCheckIn v2** (deprecated): `0x6023bfc130b40a7cba4b32634ab77077e617d89c`
 - **EventCheckIn v1** (deprecated): `0x286e1cc67358a074186eca25f4f229f950c431f2`
 
@@ -49,7 +48,7 @@ USDC stake-to-attend event check-in dApp on Arc Testnet. Key features:
 - Frontend: React 18, Vite, TypeScript, Tailwind CSS, `react-router-dom` v6
 - Web3: wagmi v2, viem v2, ConnectKit
 - Contracts: Solidity 0.8.28 + Foundry. Build: `forge build`, Test: `forge test`
-- Chain: Arc Testnet (Chain ID: 5042002)
+- Chain: Arc Mainnet (Chain ID: 5042)
 - Token: USDC (6 decimals, `0x3600000000000000000000000000000000000000`)
 - Toasts: Sonner
 

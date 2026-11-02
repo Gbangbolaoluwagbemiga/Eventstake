@@ -14,7 +14,7 @@
  * Optional:
  *   LLM_MODEL                 — Anthropic model name (default: claude-3-5-haiku-20241022)
  *   PORT                      — HTTP port (default: 3001)
- *   EVENTSTAKE_RPC_URL        — Override Arc Testnet RPC
+ *   EVENTSTAKE_RPC_URL        — Override Arc Mainnet RPC
  *   EVENTSTAKE_CONTRACT       — Override contract address
  */
 

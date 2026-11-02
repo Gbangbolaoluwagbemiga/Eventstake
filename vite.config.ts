@@ -32,6 +32,8 @@ export default defineConfig({
       'vite-plugin-node-polyfills/shims/buffer',
       'vite-plugin-node-polyfills/shims/global',
       'vite-plugin-node-polyfills/shims/process',
+      '@circle-fin/app-kit',
+      '@circle-fin/adapter-viem-v2',
     ],
   },
   server: {
