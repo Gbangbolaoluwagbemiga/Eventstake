@@ -193,12 +193,15 @@ contract EventCheckIn is ERC721, ReentrancyGuard {
         emit Registered(eventId, msg.sender);
     }
 
-    /// @notice The organiser's QR code for each attendee encodes keccak256(secret || attendeeAddress).
-    /// This binds the code to the attendee, preventing mempool front-running.
-    /// @dev If the organiser withholds codes for the entire event, checkedInCount stays 0,
-    /// which is below the 5% rescue threshold. All attendees can then call reclaimStake()
-    /// after the rescue window to recover their full stake. This means the organiser cannot
-    /// profitably withhold codes - they would forfeit their 80% organiser share without gaining anything.
+    /// @notice Check in to an event by submitting the raw preimage of the active window's code hash.
+    /// The stored hash for each window is keccak256(abi.encodePacked(preimage)).
+    /// The organiser displays one code per time window; any registered attendee who knows the
+    /// preimage can check in. Only registered attendees may call this function, each address only once.
+    /// Per-address binding is not needed: the code is shown at the venue, only registered attendees
+    /// can check in, and the duplicate-check prevents replay within the same wallet.
+    /// @dev If the organiser withholds codes the checkedInCount stays below the 5% rescue threshold
+    /// and all attendees can call reclaimStake() after the rescue window, so withholding is never
+    /// profitable for the organiser.
     function checkIn(uint256 eventId, bytes32 preimage) external {
         _requireEventExists(eventId);
         Event storage evt = _events[eventId];
@@ -216,7 +219,7 @@ contract EventCheckIn is ERC721, ReentrancyGuard {
         }
 
         bytes32 expected = _eventCodeHashes[eventId][windowIndex];
-        if (keccak256(abi.encodePacked(preimage, msg.sender)) != expected) revert InvalidCodeForAttendee();
+        if (keccak256(abi.encodePacked(preimage)) != expected) revert InvalidCodeForAttendee();
 
         _checkedIn[eventId][msg.sender] = true;
         evt.checkedInCount += 1;

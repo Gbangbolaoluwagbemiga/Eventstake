@@ -10,26 +10,12 @@ import { CONTRACT_ADDRESS, CONTRACT_ABI } from '../contract'
 import { type EventData } from '../components/EventCard'
 
 /**
- * Check-in flow:
- * The organiser stores keccak256(abi.encodePacked(preimage, attendeeAddress)) for each window.
- * The organiser distributes the raw preimage (a hex string like 0xabc123...).
- * The attendee submits the exact preimage bytes32.
- * The contract verifies: keccak256(preimage || msg.sender) == stored hash.
- *
- * For UX: accept a hex string (with or without 0x prefix), or a short alphanumeric code.
- * Encode as bytes32 by padding to 32 bytes.
+ * Encode a venue code as bytes32 for checkIn.
+ * Matches CreateEventPage: padHex(toHex(secret.trim()), { size: 32, dir: 'right' }).
+ * The contract stores keccak256(preimage) and verifies keccak256(submitted preimage) == stored hash.
  */
 function encodePreimage(code: string): `0x${string}` {
   const trimmed = code.trim()
-  // If it looks like a hex string (0x prefix or all hex chars, exactly 64 hex chars)
-  const hexPrefixed = trimmed.startsWith('0x') ? trimmed : `0x${trimmed}`
-  const hexBody = hexPrefixed.slice(2)
-  if (/^[0-9a-fA-F]{1,64}$/.test(hexBody)) {
-    // Pad to 32 bytes (left-pad with zeros to make it exactly 64 hex chars)
-    const padded = hexBody.padStart(64, '0')
-    return `0x${padded}`
-  }
-  // Otherwise treat as UTF-8: convert to hex then right-pad to 32 bytes
   const hex = toHex(trimmed)
   if ((hex.length - 2) / 2 > 32) throw new Error('Code is too long (max 32 characters)')
   return padHex(hex, { size: 32, dir: 'right' })

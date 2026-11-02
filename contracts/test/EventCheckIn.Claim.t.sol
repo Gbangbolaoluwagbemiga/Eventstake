@@ -46,13 +46,10 @@ contract EventCheckInClaimTest is EventCheckInTestBase {
         assertEq(checkin.getUserRecord(alice).eventsAttended, 1);
     }
 
-    function test_ClaimBack_SelfPaid_BanLiftCodePath_NeverSetByContract() public {
-        // CONTRACT BUG DOCUMENTATION TEST:
-        // The contract has ban-lift logic in claimBack (selfPaidAttendedSinceBan >= 1
-        // sets bannedFromCover = false), but bannedFromCover is NEVER set to true
-        // anywhere in the contract. withdrawForfeited does not ban covered no-shows.
-        // This test documents the reachable state: after a covered no-show and
-        // withdrawForfeited, bannedFromCover remains false.
+    function test_ClaimBack_SelfPaid_BanSetAndClearedByWithdrawForfeited() public {
+        // After a covered no-show and withdrawForfeited:
+        // - bannedFromCover IS set to true (the ban system works correctly)
+        // - hasOutstandingCover IS cleared to false (cover is settled)
         vm.prank(donor); checkin.donate(100e6);
         _createDefaultEvent();
         vm.warp(REG_START);
@@ -61,10 +58,8 @@ contract EventCheckInClaimTest is EventCheckInTestBase {
         _warpPastGrace();
         vm.prank(organiser); checkin.withdrawForfeited(eventId);
 
-        // bannedFromCover is never set — contract bug
-        assertFalse(checkin.getUserRecord(alice).bannedFromCover);
-        // hasOutstandingCover is also NOT cleared by withdrawForfeited — only by claimBack/reclaimStake
-        assertTrue(checkin.getUserRecord(alice).hasOutstandingCover);
+        assertTrue(checkin.getUserRecord(alice).bannedFromCover);
+        assertFalse(checkin.getUserRecord(alice).hasOutstandingCover);
     }
 
     // ── claimBack: covered attendee ───────────────────────────────────────────
@@ -306,7 +301,7 @@ contract EventCheckInClaimTest is EventCheckInTestBase {
         // We create an event with 20 attendees; alice checks in; bob (not checked in) tries to reclaimStake.
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("Big", REG_START, REG_END, EVENT_DATE, STAKE, 25, hashes, 1 hours, 0);
 

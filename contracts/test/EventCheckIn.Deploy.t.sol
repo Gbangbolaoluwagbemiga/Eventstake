@@ -32,7 +32,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
     function test_CreateEvent_HappyPath() public {
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
 
         vm.expectEmit(true, true, false, true, address(checkin));
         emit EventCheckIn.EventCreated(1, organiser, "E1", EVENT_DATE, STAKE, 5);
@@ -59,7 +59,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
         _createDefaultEvent();
         // Create a second event
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("E2", REG_START, REG_END, EVENT_DATE, STAKE, 5, hashes, 1 hours, 0);
         EventCheckIn.Event memory e2 = checkin.getEvent(2);
@@ -71,7 +71,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
     function test_CreateEvent_SeedSponsorPool() public {
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         uint256 seed = 100e6;
 
         uint256 balBefore = usdc.balanceOf(organiser);
@@ -94,7 +94,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
     function test_CreateEvent_RevertRegistrationStartInPast() public {
         vm.warp(T0 + 10 days);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         vm.expectRevert(EventCheckIn.EventDateNotFuture.selector);
         checkin.createEvent("E1", T0, REG_END, EVENT_DATE, STAKE, 5, hashes, 1 hours, 0);
@@ -103,7 +103,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
     function test_CreateEvent_RevertRegEndBeforeRegStart() public {
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         vm.expectRevert(EventCheckIn.EventDateNotFuture.selector);
         checkin.createEvent("E1", REG_START, REG_START, EVENT_DATE, STAKE, 5, hashes, 1 hours, 0);
@@ -112,7 +112,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
     function test_CreateEvent_RevertDateBeforeRegEnd() public {
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         vm.expectRevert(EventCheckIn.EventDateNotFuture.selector);
         checkin.createEvent("E1", REG_START, REG_END, REG_END, STAKE, 5, hashes, 1 hours, 0);
@@ -121,7 +121,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
     function test_CreateEvent_RevertZeroStake() public {
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         vm.expectRevert(EventCheckIn.StakeAmountZero.selector);
         checkin.createEvent("E1", REG_START, REG_END, EVENT_DATE, 0, 5, hashes, 1 hours, 0);
@@ -130,7 +130,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
     function test_CreateEvent_RevertZeroMaxAttendees() public {
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         vm.expectRevert(EventCheckIn.MaxAttendeesZero.selector);
         checkin.createEvent("E1", REG_START, REG_END, EVENT_DATE, STAKE, 0, hashes, 1 hours, 0);
@@ -147,7 +147,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
     function test_CreateEvent_RevertZeroWindowDuration() public {
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         vm.expectRevert(EventCheckIn.WindowDurationZero.selector);
         checkin.createEvent("E1", REG_START, REG_END, EVENT_DATE, STAKE, 5, hashes, 0, 0);
@@ -168,7 +168,7 @@ contract EventCheckInDeployTest is EventCheckInTestBase {
     function test_GetEvents_ReturnsAllEvents() public {
         _createDefaultEvent();
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = bobCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("E2", REG_START, REG_END, EVENT_DATE, STAKE, 3, hashes, 1 hours, 0);
 

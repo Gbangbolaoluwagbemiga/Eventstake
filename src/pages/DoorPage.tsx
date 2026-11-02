@@ -142,11 +142,8 @@ export default function DoorPage() {
                 HOW TO GENERATE ATTENDEE CODES
               </p>
               <p className="text-sm" style={{ color: 'rgba(255,255,255,0.8)', lineHeight: 1.6 }}>
-                For window {windowIndex + 1}: take your secret for this window and compute<br />
-                <code className="mono text-xs" style={{ background: 'rgba(0,0,0,0.3)', padding: '2px 6px', borderRadius: 4 }}>
-                  keccak256(secret || attendeeAddress)
-                </code><br />
-                Share that hex value with each attendee as their personal check-in code.
+                For window {windowIndex + 1}: display your venue secret for this window.<br />
+                Every registered attendee enters the same code to check in.
               </p>
             </div>
 

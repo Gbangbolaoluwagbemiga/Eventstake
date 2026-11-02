@@ -70,7 +70,7 @@ contract EventCheckInCoverTest is EventCheckInTestBase {
         // Create a second event
         uint256 now2 = block.timestamp;
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("E2", now2 + 1, now2 + 1 days, now2 + 2 days, STAKE, 10, hashes, 1 hours, 0);
 
@@ -89,13 +89,10 @@ contract EventCheckInCoverTest is EventCheckInTestBase {
 
     // ── requestCover: Rule 4 — banned (CONTRACT BUG: bannedFromCover never set) ──
 
-    function test_RequestCover_CoverDenied_Banned_NeverReachable() public {
-        // CONTRACT BUG DOCUMENTATION: The `bannedFromCover` flag is checked in
-        // requestCover and getCoverEligibility but is NEVER set to `true` anywhere
-        // in the contract source. withdrawForfeited handles covered no-shows by
-        // restoring their stake to the pool but does NOT set bannedFromCover.
-        // This test confirms: after a covered no-show + withdrawForfeited,
-        // bannedFromCover is still false, making Rule 4 dead code.
+    function test_RequestCover_CoverDenied_Banned_AfterNoShow() public {
+        // After a covered no-show + withdrawForfeited:
+        // bannedFromCover IS set to true and hasOutstandingCover IS cleared.
+        // Rule 4 (banned) fires when alice tries to get cover for a second event.
         vm.prank(donor); checkin.donate(200e6);
         _createDefaultEvent();
         vm.warp(REG_START);
@@ -104,22 +101,21 @@ contract EventCheckInCoverTest is EventCheckInTestBase {
         _warpPastGrace();
         vm.prank(organiser); checkin.withdrawForfeited(eventId);
 
-        // Confirmed: bannedFromCover is never set to true
-        assertFalse(checkin.getUserRecord(alice).bannedFromCover);
+        assertTrue(checkin.getUserRecord(alice).bannedFromCover);
+        assertFalse(checkin.getUserRecord(alice).hasOutstandingCover);
 
-        // Create second event — alice still has hasOutstandingCover=true (also a bug:
-        // withdrawForfeited doesn't clear it), so Rule 3 fires, not Rule 4.
+        // Create second event — alice is banned, so Rule 4 fires.
         uint256 now2 = block.timestamp;
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("E2", now2 + 1, now2 + 1 days, now2 + 2 days, STAKE, 10, hashes, 1 hours, 0);
         vm.warp(now2 + 1);
 
-        // Rule 3 fires (hasOutstandingCover=true), NOT Rule 4
+        // Rule 4 fires (bannedFromCover=true)
         vm.expectEmit(true, true, false, false, address(checkin));
         emit EventCheckIn.CoverDenied(2, alice,
-            "You already have a covered stake - check in to that event first.");
+            "You were covered and did not attend. Attend one self-paid event to restore cover eligibility.");
         vm.prank(alice);
         checkin.requestCover(2);
     }
@@ -137,7 +133,7 @@ contract EventCheckInCoverTest is EventCheckInTestBase {
         // Create event 1 for self-pay registration (no cover)
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("E1", T0+1, T0+7 days, T0+14 days, STAKE, 10, hashes, 1 hours, 0);
 
@@ -171,7 +167,7 @@ contract EventCheckInCoverTest is EventCheckInTestBase {
         // Create event 1, alice gets cover
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("E1", T0+1, T0+7 days, T0+14 days, STAKE, 10, hashes, 1 hours, 0);
         vm.warp(T0+1);
@@ -328,7 +324,7 @@ contract EventCheckInCoverTest is EventCheckInTestBase {
         // Create event with max 1 attendee
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("Tiny", REG_START, REG_END, EVENT_DATE, STAKE, 1, hashes, 1 hours, 0);
         vm.warp(REG_START);
@@ -455,7 +451,7 @@ contract EventCheckInCoverTest is EventCheckInTestBase {
         // Create second event
         uint256 now2 = block.timestamp;
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("E2", now2+1, now2+1 days, now2+2 days, STAKE, 10, hashes, 1 hours, 0);
         vm.warp(now2+1);

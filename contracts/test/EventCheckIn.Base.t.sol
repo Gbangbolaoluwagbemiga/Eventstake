@@ -31,10 +31,13 @@ abstract contract EventCheckInTestBase is Test {
     uint256 internal RESCUE_END;
 
     // ── code-hash helpers ────────────────────────────────────────────────────
+    // One shared preimage per window; stored hash = keccak256(abi.encodePacked(preimage)).
+    // Any registered attendee who knows the preimage can check in.
+    bytes32 internal sharedPreimage;
+    bytes32 internal sharedCodeHash;
+    // Keep alicePreimage / bobPreimage as aliases so helpers compile unchanged.
     bytes32 internal alicePreimage;
-    bytes32 internal aliceCodeHash;
     bytes32 internal bobPreimage;
-    bytes32 internal bobCodeHash;
     bytes32[] internal codeHashes;   // one window hash per setUp
 
     // ── event id created in helpers ──────────────────────────────────────────
@@ -66,18 +69,17 @@ abstract contract EventCheckInTestBase is Test {
         GRACE_END  = EVENT_DATE + 2 days;   // CHECKIN_GRACE_DAYS = 2
         RESCUE_END = EVENT_DATE + 24 hours; // RESCUE_HOURS = 24
 
-        // Preimages for alice and bob bound to their addresses
-        alicePreimage = bytes32(uint256(0xAA));
-        aliceCodeHash = keccak256(abi.encodePacked(alicePreimage, alice));
+        // One shared preimage for all attendees; stored hash = keccak256(preimage).
+        // Alice and bob use the same code — any registered attendee can check in.
+        sharedPreimage = bytes32(uint256(0xAA));
+        sharedCodeHash = keccak256(abi.encodePacked(sharedPreimage));
+        alicePreimage  = sharedPreimage; // alias
+        bobPreimage    = sharedPreimage; // alias
 
-        bobPreimage   = bytes32(uint256(0xBB));
-        bobCodeHash   = keccak256(abi.encodePacked(bobPreimage, bob));
-
-        // Default codeHashes array: two hashes (alice, bob) so there's room for
-        // two windows.  Single-window tests use codeHashes[0].
+        // Default codeHashes array: two windows, both use the same shared hash.
         codeHashes = new bytes32[](2);
-        codeHashes[0] = aliceCodeHash;
-        codeHashes[1] = bobCodeHash;
+        codeHashes[0] = sharedCodeHash;
+        codeHashes[1] = sharedCodeHash;
 
         // Pre-approve from each actor
         vm.prank(organiser); usdc.approve(address(checkin), type(uint256).max);
@@ -93,7 +95,7 @@ abstract contract EventCheckInTestBase is Test {
     function _createDefaultEvent() internal returns (uint256 id) {
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
 
         vm.prank(organiser);
         checkin.createEvent(

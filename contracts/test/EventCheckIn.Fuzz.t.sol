@@ -33,7 +33,7 @@ contract EventCheckInHandler is Test {
         organiser = _organiser;
         alice     = _alice;
 
-        _aliceCodeHash = keccak256(abi.encodePacked(_alicePreimage, alice));
+        _aliceCodeHash = keccak256(abi.encodePacked(_alicePreimage));
     }
 
     function donate(uint256 amount) external {
@@ -50,7 +50,7 @@ contract EventCheckInHandler is Test {
 
         uint256 ts = block.timestamp;
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = _aliceCodeHash;
+        hashes[0] = keccak256(abi.encodePacked(_alicePreimage));
 
         usdc.mint(organiser, 0); // no seed
         vm.prank(organiser);
@@ -101,7 +101,7 @@ contract EventCheckInFuzzTest is EventCheckInTestBase {
 
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
 
         vm.prank(organiser);
         checkin.createEvent("FE", REG_START, REG_END, EVENT_DATE, stake, 10, hashes, 1 hours, 0);
@@ -123,7 +123,7 @@ contract EventCheckInFuzzTest is EventCheckInTestBase {
 
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
 
         vm.prank(organiser);
         checkin.createEvent("Cap", REG_START, REG_END, EVENT_DATE, STAKE, max, hashes, 1 hours, 0);
@@ -157,7 +157,7 @@ contract EventCheckInFuzzTest is EventCheckInTestBase {
 
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("FS", REG_START, REG_END, EVENT_DATE, stake, noShows + 5, hashes, 1 hours, 0);
 
@@ -254,9 +254,9 @@ contract EventCheckInFuzzTest is EventCheckInTestBase {
         bytes32 pre1 = bytes32(uint256(0xC1));
         bytes32 pre2 = bytes32(uint256(0xC2));
         bytes32[] memory hashes = new bytes32[](3);
-        hashes[0] = keccak256(abi.encodePacked(pre0, alice));
-        hashes[1] = keccak256(abi.encodePacked(pre1, alice));
-        hashes[2] = keccak256(abi.encodePacked(pre2, alice));
+        hashes[0] = keccak256(abi.encodePacked(pre0));
+        hashes[1] = keccak256(abi.encodePacked(pre1));
+        hashes[2] = keccak256(abi.encodePacked(pre2));
 
         vm.warp(T0);
         vm.prank(organiser);

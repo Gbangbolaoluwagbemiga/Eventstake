@@ -37,62 +37,11 @@ function toBytes32(secret: string): `0x${string}` {
   return padHex(hex, { size: 32, dir: 'right' }) // right-pad with zeros to 32 bytes
 }
 
+// Stored hash per window = keccak256(abi.encodePacked(preimage)).
+// The attendee submits the raw preimage (padded to bytes32); the contract rehashes it.
+// Any registered attendee who knows the preimage can check in.
 function hashCodeForWindow(secret: string): `0x${string}` {
-  // The contract stores: keccak256(abi.encodePacked(preimage, attendeeAddress))
-  // But since we don't know the attendee address at creation time,
-  // the organiser must supply the preimage; the hash in the contract is per (preimage, attendee).
-  // WAIT: re-reading the contract — it stores one hash per window slot, not per attendee.
-  // checkIn verifies: keccak256(abi.encodePacked(preimage, msg.sender)) == _eventCodeHashes[eventId][windowIndex]
-  // So the stored hash = keccak256(preimage || attendeeAddress).
-  // This means the hash is different for each attendee — but the contract stores a SINGLE hash per window.
-  // This is a contradiction: the single stored hash can only match ONE attendee's address.
-  //
-  // The CORRECT interpretation from the contract comment:
-  // "The organiser's QR code for each attendee encodes keccak256(secret || attendeeAddress)"
-  // This means the organiser generates a UNIQUE QR code for each attendee at check-in time.
-  // The stored hash = keccak256(preimage || attendeeAddress) where preimage is per-attendee.
-  //
-  // But the contract stores bytes32[] for ALL windows, not per-attendee.
-  // Resolution: The preimage IS the attendee-specific code. The organiser has one base secret,
-  // computes keccak256(baseSecret || attendeeAddress) for each attendee, displays that hash
-  // to the attendee as their personal QR code (the preimage they submit to checkIn).
-  // The stored hash = keccak256(keccak256(baseSecret || attendeeAddress) || attendeeAddress).
-  //
-  // For the frontend create flow: we just need to store some bytes32 values.
-  // The actual hash generation at door time is done by the organiser.
-  // We store the BASE SECRET as bytes32 — the organiser will derive per-attendee codes at the door.
-  //
-  // SIMPLEST IMPLEMENTATION: store keccak256(secret) as a placeholder.
-  // The actual verification path: the organiser shows each attendee keccak256(secret || attendeeAddr).
-  // That value is the preimage. The stored hash = keccak256(keccak256(secret || addr) || addr).
-  // So createEvent stores: keccak256(keccak256(secret || attendeeAddr) || attendeeAddr) — can't precompute.
-  //
-  // PRACTICAL MVP: The contract stores ONE hash per window. All attendees use the SAME code.
-  // Store keccak256(secret). checkIn: keccak256(preimage || msg.sender) must match.
-  // For this to work with a shared code: stored = keccak256(secret || ZERO_ADDRESS) — doesn't work.
-  //
-  // ACTUAL READING: The contract stores the hash in _eventCodeHashes[eventId][windowIndex].
-  // The organiser MUST pre-compute per-attendee hashes and store them ALL.
-  // But bytes32[] stores one per WINDOW, not per ATTENDEE.
-  //
-  // FINAL ANSWER after careful re-reading:
-  // The stored hash is the EXPECTED output of keccak256(preimage || attendeeAddr).
-  // Since this must be pre-known at createEvent time, the organiser must know attendees in advance.
-  // This is a design issue in the contract. For the MVP frontend, we store keccak256(secret || address(0))
-  // and the organiser distributes the secret. The attendee calls checkIn(id, secret_as_bytes32)
-  // and the contract computes keccak256(secret || msg.sender) and checks against stored hash.
-  // So stored hash = keccak256(secret || attendeeAddress) — unique per attendee per window.
-  // The organiser cannot store this at createEvent time without knowing all attendees.
-  //
-  // THE RESOLUTION: The contract comment says the QR encodes keccak256(secret || addr).
-  // The attendee submits this VALUE as the preimage.
-  // The stored hash = keccak256(keccak256(secret || addr) || addr).
-  // The organiser stores keccak256(secret) per window. Then at door time derives per-attendee codes.
-  // For createEvent, store keccak256(secret) as a placeholder — the door page handles the rest.
-  //
-  // For this UI, we just hash the raw secret string to bytes32 as what gets stored.
-  // The door page will show the correct per-attendee derivation instructions.
-  const secretBytes = toBytes32(secret)
+  const secretBytes = toBytes32(secret.trim())
   return keccak256(encodePacked(['bytes32'], [secretBytes]))
 }
 

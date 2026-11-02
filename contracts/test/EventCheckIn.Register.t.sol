@@ -78,7 +78,7 @@ contract EventCheckInRegisterTest is EventCheckInTestBase {
         // Create event with max 1 attendee
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
         vm.prank(organiser);
         checkin.createEvent("Small", REG_START, REG_END, EVENT_DATE, STAKE, 1, hashes, 1 hours, 0);
 
@@ -120,17 +120,19 @@ contract EventCheckInRegisterTest is EventCheckInTestBase {
         assertEq(checkin.getEvent(eventId).checkedInCount, 1);
     }
 
-    function test_CheckIn_PreimageBoundToMsgSender() public {
-        // Bob tries to use alice's preimage — should fail because the hash is
-        // keccak256(preimage || msg.sender) and bob's address differs.
+    function test_CheckIn_WrongPreimage_Reverts() public {
+        // Any attendee submitting the wrong preimage is rejected.
+        // Under the shared-code scheme, the stored hash = keccak256(preimage),
+        // so a different bytes32 value always fails regardless of who submits it.
         _createDefaultEvent();
         vm.warp(REG_START);
         vm.prank(bob); checkin.register(eventId);
         vm.warp(EVENT_DATE);
 
+        bytes32 wrongPreimage = bytes32(uint256(0xDEAD));
         vm.prank(bob);
         vm.expectRevert(EventCheckIn.InvalidCodeForAttendee.selector);
-        checkin.checkIn(eventId, alicePreimage);
+        checkin.checkIn(eventId, wrongPreimage);
     }
 
     function test_CheckIn_WrongPreimage() public {
@@ -176,13 +178,14 @@ contract EventCheckInRegisterTest is EventCheckInTestBase {
     // ── checkIn: window rotation ──────────────────────────────────────────────
 
     function test_CheckIn_WindowRotation_SecondHash() public {
-        // Create event with 2 code hashes and 1-hour window.
-        // aliceCodeHash is window-0; bobCodeHash is window-1.
-        // Bob registers with his own code hash in window-1.
+        // Create event with 2 code windows, each with a distinct preimage.
+        // window-0 hash = sharedCodeHash; window-1 uses a different preimage.
+        bytes32 win1Preimage = bytes32(uint256(0xBB));
+        bytes32 win1Hash = keccak256(abi.encodePacked(win1Preimage));
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](2);
-        hashes[0] = aliceCodeHash;
-        hashes[1] = bobCodeHash;
+        hashes[0] = sharedCodeHash;
+        hashes[1] = win1Hash;
 
         vm.prank(organiser);
         checkin.createEvent("W2", REG_START, REG_END, EVENT_DATE, STAKE, 10, hashes, 1 hours, 0);
@@ -193,7 +196,7 @@ contract EventCheckInRegisterTest is EventCheckInTestBase {
         // Warp to window 1 (1 hour into the event)
         vm.warp(EVENT_DATE + 1 hours);
         vm.prank(bob);
-        checkin.checkIn(1, bobPreimage); // uses hash[1]
+        checkin.checkIn(1, win1Preimage); // uses hash[1]
 
         assertTrue(checkin.isCheckedIn(1, bob));
     }
@@ -203,7 +206,7 @@ contract EventCheckInRegisterTest is EventCheckInTestBase {
         // After 5 hours windowIndex would be 5, but it's clamped to 0.
         vm.warp(T0);
         bytes32[] memory hashes = new bytes32[](1);
-        hashes[0] = aliceCodeHash;
+        hashes[0] = sharedCodeHash;
 
         vm.prank(organiser);
         checkin.createEvent("Clamp", REG_START, REG_END, EVENT_DATE, STAKE, 10, hashes, 2 hours, 0);
@@ -234,5 +237,33 @@ contract EventCheckInRegisterTest is EventCheckInTestBase {
     function test_GetEventCodeHashCount() public {
         _createDefaultEvent();
         assertEq(checkin.getEventCodeHashCount(eventId), 1);
+    }
+
+    // ── shared code: 3 different attendees check in with the same code ────────
+
+    function test_CheckIn_SharedCode_ThreeAttendeesAllSucceed() public {
+        // Create event with one shared code hash and max 5 attendees
+        vm.warp(T0);
+        bytes32[] memory hashes = new bytes32[](1);
+        hashes[0] = sharedCodeHash;
+        vm.prank(organiser);
+        checkin.createEvent("Shared", REG_START, REG_END, EVENT_DATE, STAKE, 5, hashes, 1 hours, 0);
+
+        // Register alice, bob and carol
+        vm.warp(REG_START);
+        vm.prank(alice);   checkin.register(1);
+        vm.prank(bob);     checkin.register(1);
+        vm.prank(carol);   checkin.register(1);
+
+        // All three check in with the same shared preimage
+        vm.warp(EVENT_DATE);
+        vm.prank(alice);   checkin.checkIn(1, sharedPreimage);
+        vm.prank(bob);     checkin.checkIn(1, sharedPreimage);
+        vm.prank(carol);   checkin.checkIn(1, sharedPreimage);
+
+        assertTrue(checkin.isCheckedIn(1, alice));
+        assertTrue(checkin.isCheckedIn(1, bob));
+        assertTrue(checkin.isCheckedIn(1, carol));
+        assertEq(checkin.getEvent(1).checkedInCount, 3);
     }
 }

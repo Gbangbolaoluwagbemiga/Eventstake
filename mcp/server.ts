@@ -24,6 +24,8 @@ import {
   formatUnits,
   keccak256,
   encodePacked,
+  toHex,
+  padHex,
   type Address,
   type Chain,
 } from 'viem'
@@ -346,25 +348,28 @@ server.tool(
   },
 )
 
-// ---- hash_code_for_attendee ------------------------------------------------
+// ---- hash_code_for_window --------------------------------------------------
 
 server.tool(
-  'hash_code_for_attendee',
-  `Compute the codeHash to pass in codeHashes[] when creating an event for one (secret, attendeeAddress) pair.
-The contract verifies: keccak256(abi.encodePacked(preimage, attendeeAddress)) == codeHashes[windowIndex]
-where preimage = keccak256(secret). Use this tool to precompute hashes for known attendee addresses.
-Attendees receive keccak256(secret) as their check-in preimage.`,
+  'hash_code_for_window',
+  `Compute the codeHash to pass in codeHashes[] for one time window.
+The contract stores keccak256(abi.encodePacked(preimage)) for each window.
+At the event the organiser displays the raw secret string; every registered attendee
+submits the same code to check in. The contract rehashes the submitted preimage and
+compares it to the stored hash.
+Use this tool to precompute hashes before calling create_event.`,
   {
-    secret: z.string().regex(/^0x[0-9a-fA-F]{64}$/).describe('0x-prefixed 32-byte hex secret for this window.'),
-    attendeeAddress: z.string().regex(/^0x[0-9a-fA-F]{40}$/).describe('Attendee wallet address.'),
+    secret: z.string().min(1).describe('The raw venue secret for this window (e.g. "SUNRISE42"). Max 32 UTF-8 bytes.'),
   },
-  async ({ secret, attendeeAddress }) => {
-    const preimage = keccak256(secret as `0x${string}`)
-    const codeHash = keccak256(encodePacked(['bytes32', 'address'], [preimage, attendeeAddress as Address]))
+  async ({ secret }) => {
+    // Mirror CreateEventPage: toHex → padHex right → keccak256
+    const hex = toHex(secret.trim()) as `0x${string}`
+    const padded = padHex(hex, { size: 32, dir: 'right' }) as `0x${string}`
+    const codeHash = keccak256(encodePacked(['bytes32'], [padded]))
     return {
       content: [{
         type: 'text' as const,
-        text: JSON.stringify({ secret, attendeeAddress, preimage, codeHash }, null, 2),
+        text: JSON.stringify({ secret, preimage: padded, codeHash }, null, 2),
       }],
     }
   },
@@ -375,8 +380,8 @@ Attendees receive keccak256(secret) as their check-in preimage.`,
 server.tool(
   'create_event',
   `Create a new EventStake event on-chain. Requires ORGANISER_PRIVATE_KEY in the environment.
-Pass codeHashes[i] = keccak256(abi.encodePacked(keccak256(secret_i), attendeeAddress)) for each
-attendee and time window. Use the hash_code_for_attendee tool to compute these values.
+Pass codeHashes[i] = keccak256(abi.encodePacked(preimage_i)) for each time window.
+Use the hash_code_for_window tool to compute these values from your plain-text venue secrets.
 Returns the transaction hash once the transaction is submitted.`,
   {
     name: z.string().min(1).describe('Event name.'),
@@ -388,7 +393,7 @@ Returns the transaction hash once the transaction is submitted.`,
     codeHashes: z.array(
       z.string().regex(/^0x[0-9a-fA-F]{64}$/, 'Each hash must be a 0x-prefixed 32-byte hex string.'),
     ).min(1).describe(
-      'One pre-computed codeHash per time window. Compute with hash_code_for_attendee.',
+      'One pre-computed codeHash per time window. Compute with hash_code_for_window.',
     ),
     codeWindowDuration_sec: z.number().int().positive().describe('Duration of each window in seconds, e.g. 900 = 15 min.'),
     seedAmount_usdc: z.number().nonnegative().describe('USDC to seed the sponsor pool. Pass 0 to skip.'),
