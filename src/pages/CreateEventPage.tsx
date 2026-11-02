@@ -5,7 +5,7 @@ import { ConnectKitButton } from 'connectkit'
 import { Loader2, ArrowLeft, Info } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { toast } from 'sonner'
-import { keccak256, encodePacked, pad, toBytes } from 'viem'
+import { keccak256, encodePacked, toHex, padHex } from 'viem'
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from '../contract'
 import { formatUsdc, parseUsdc } from '@/onchain-money'
 import { getUsdc } from '@/onchain-facts'
@@ -32,9 +32,9 @@ function currentUnixTimestamp(): bigint {
 }
 
 function toBytes32(secret: string): `0x${string}` {
-  const encoded = toBytes(secret)
-  if (encoded.length > 32) throw new Error(`Secret "${secret}" is too long (max 32 bytes)`)
-  return pad(encoded, { size: 32 }) as unknown as `0x${string}`
+  const hex = toHex(secret) // e.g. "SECRET1" -> "0x5345435245543100..."
+  if ((hex.length - 2) / 2 > 32) throw new Error(`Secret "${secret}" is too long (max 32 bytes)`)
+  return padHex(hex, { size: 32, dir: 'right' }) // right-pad with zeros to 32 bytes
 }
 
 function hashCodeForWindow(secret: string): `0x${string}` {

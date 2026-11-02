@@ -5,7 +5,7 @@ import { ConnectKitButton } from 'connectkit'
 import { Loader2, CheckCircle, ArrowLeft, KeyRound } from 'lucide-react'
 import { motion } from 'framer-motion'
 import { toast } from 'sonner'
-import { toBytes, pad } from 'viem'
+import { toHex, padHex } from 'viem'
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from '../contract'
 import { type EventData } from '../components/EventCard'
 
@@ -29,12 +29,10 @@ function encodePreimage(code: string): `0x${string}` {
     const padded = hexBody.padStart(64, '0')
     return `0x${padded}`
   }
-  // Otherwise treat as UTF-8 and pad to 32 bytes
-  const encoded = toBytes(trimmed)
-  if (encoded.length > 32) {
-    throw new Error('Code is too long (max 32 characters)')
-  }
-  return pad(encoded, { size: 32 }) as unknown as `0x${string}`
+  // Otherwise treat as UTF-8: convert to hex then right-pad to 32 bytes
+  const hex = toHex(trimmed)
+  if ((hex.length - 2) / 2 > 32) throw new Error('Code is too long (max 32 characters)')
+  return padHex(hex, { size: 32, dir: 'right' })
 }
 
 export default function CheckInPage() {
