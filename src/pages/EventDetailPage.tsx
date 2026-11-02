@@ -3,7 +3,6 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { useAccount, useChainId, useReadContract, useWriteContract, useWaitForTransactionReceipt } from 'wagmi'
 import { ConnectKitButton } from 'connectkit'
 import { Share2, Calendar, ArrowLeft, Loader2, CheckCircle, Shield, ArrowRight } from 'lucide-react'
-import { ARC_CHAIN_ID } from '@/lib/bridge'
 import { motion } from 'framer-motion'
 import { toast } from 'sonner'
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from '../contract'
@@ -320,71 +319,45 @@ export default function EventDetailPage() {
             </span>
           </div>
 
-          {/* Register on Arc */}
-          {chainId === ARC_CHAIN_ID && (
-            <button
-              onClick={() => { void handleRegister() }}
-              disabled={isActive}
-              className="w-full flex items-center justify-center gap-2 rounded-xl font-semibold text-sm"
-              style={{
-                background: 'var(--accent)',
-                color: '#fff',
-                border: 'none',
-                minHeight: '48px',
-                opacity: isActive ? 0.65 : 1,
-                cursor: isActive ? 'not-allowed' : 'pointer',
-              }}
-            >
-              {isActive && <Loader2 size={16} className="animate-spin" />}
-              {phase === 'approving' || waitingApprove
-                ? 'Approving USDC...'
-                : phase === 'registering' || waitingRegister
-                ? 'Registering...'
-                : `Register — ${formatUsdc(evt.stakeAmount)} USDC`}
-            </button>
-          )}
+          {/* Register with USDC already on Arc */}
+          <button
+            onClick={() => { void handleRegister() }}
+            disabled={isActive}
+            className="w-full flex items-center justify-center gap-2 rounded-xl font-semibold text-sm"
+            style={{
+              background: 'var(--accent)',
+              color: '#fff',
+              border: 'none',
+              minHeight: '48px',
+              opacity: isActive ? 0.65 : 1,
+              cursor: isActive ? 'not-allowed' : 'pointer',
+            }}
+          >
+            {isActive && <Loader2 size={16} className="animate-spin" />}
+            {phase === 'approving' || waitingApprove
+              ? 'Approving USDC...'
+              : phase === 'registering' || waitingRegister
+              ? 'Registering...'
+              : `Register — ${formatUsdc(evt.stakeAmount)} USDC`}
+          </button>
 
-          {/* Bridge from another chain */}
-          {chainId !== ARC_CHAIN_ID && (
-            <div className="space-y-2">
-              <button
-                onClick={() => { void handleRegister() }}
-                disabled={isActive}
-                className="w-full flex items-center justify-center gap-2 rounded-xl font-semibold text-sm"
-                style={{
-                  background: 'var(--accent)',
-                  color: '#fff',
-                  border: 'none',
-                  minHeight: '48px',
-                  opacity: isActive ? 0.65 : 1,
-                  cursor: isActive ? 'not-allowed' : 'pointer',
-                }}
-              >
-                {isActive && <Loader2 size={16} className="animate-spin" />}
-                {phase === 'approving' || waitingApprove
-                  ? 'Approving USDC...'
-                  : phase === 'registering' || waitingRegister
-                  ? 'Registering...'
-                  : `Register — ${formatUsdc(evt.stakeAmount)} USDC`}
-              </button>
-              <button
-                onClick={() => navigate(`/events/${eventId}/bridge-stake`)}
-                disabled={isActive}
-                className="w-full flex items-center justify-center gap-2 rounded-xl font-semibold text-sm"
-                style={{
-                  background: 'transparent',
-                  color: 'var(--accent)',
-                  border: '1.5px solid var(--accent)',
-                  minHeight: '48px',
-                  opacity: isActive ? 0.5 : 1,
-                  cursor: isActive ? 'not-allowed' : 'pointer',
-                }}
-              >
-                <ArrowRight size={14} />
-                Bridge USDC from another chain
-              </button>
-            </div>
-          )}
+          {/* Bridge from another chain — always visible */}
+          <button
+            onClick={() => navigate(`/events/${eventId}/bridge-stake`)}
+            disabled={isActive}
+            className="w-full flex items-center justify-center gap-2 rounded-xl font-semibold text-sm"
+            style={{
+              background: 'transparent',
+              color: 'var(--accent)',
+              border: '1.5px solid var(--accent)',
+              minHeight: '48px',
+              opacity: isActive ? 0.5 : 1,
+              cursor: isActive ? 'not-allowed' : 'pointer',
+            }}
+          >
+            <ArrowRight size={14} />
+            Bridge USDC from another chain
+          </button>
 
           {/* Cover button */}
           <button
