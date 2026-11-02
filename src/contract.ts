@@ -1,7 +1,7 @@
 /**
  * EventCheckIn contract config.
  * CONTRACT_ADDRESS: set this to the Arc Mainnet address after running forge create.
- * The testnet address was 0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75 (Arc Testnet).
+ * Testnet (deprecated): 0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75 (Arc Testnet, chain 5042002).
  */
 
 // arc-studio-allow-onchain-literal

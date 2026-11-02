@@ -8,9 +8,9 @@ Built with [Arc Studio](https://studio.arc.io)
 
 ## Contract
 
-- **Address:** `0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75`
-- **Chain:** Arc Testnet, chain ID 5042002
-- **Explorer:** https://explorer.testnet.arc.io/address/0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75
+- **Address:** `0x5154cD2470e8FC0FdBa2a983A35895669A81fe95`
+- **Chain:** Arc Mainnet, chain ID 5042
+- **Explorer:** https://explorer.mainnet.arc.io/address/0x5154cD2470e8FC0FdBa2a983A35895669A81fe95
 - **Token:** USDC at `0x3600000000000000000000000000000000000000` (6 decimals)
 
 ---
