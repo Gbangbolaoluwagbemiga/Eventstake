@@ -11,6 +11,7 @@ import OrganiserDashboardPage from './pages/OrganiserDashboardPage'
 import DoorPage from './pages/DoorPage'
 import SponsorPoolPage from './pages/SponsorPoolPage'
 import CoverLogPage from './pages/CoverLogPage'
+import BridgeStakePage from './pages/BridgeStakePage'
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/events" element={<EventsPage />} />
             <Route path="/events/:eventId" element={<EventDetailPage />} />
+            <Route path="/events/:eventId/bridge-stake" element={<BridgeStakePage />} />
             <Route path="/checkin/:eventId" element={<CheckInPage />} />
             <Route path="/my/events" element={<MyEventsPage />} />
             <Route path="/my/record" element={<MyRecordPage />} />
