@@ -4,14 +4,14 @@ import EventCard from './EventCard'
 import { CONTRACT_ABI as ABI, CONTRACT_ADDRESS } from '../contract'
 import type { EventData } from './EventCard'
 
-const ARC_TESTNET_ID = 5042002
+const ARC_MAINNET_ID = 5042
 
 export default function EventList() {
   const { data: events, isLoading, error, refetch } = useReadContract({
     address: CONTRACT_ADDRESS || undefined,
     abi: ABI,
     functionName: 'getEvents',
-    chainId: ARC_TESTNET_ID,
+    chainId: ARC_MAINNET_ID,
     query: {
       enabled: !!CONTRACT_ADDRESS,
       refetchInterval: 10_000,

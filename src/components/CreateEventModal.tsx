@@ -6,7 +6,7 @@ import { CONTRACT_ABI as ABI, CONTRACT_ADDRESS } from '../contract'
 import { getUsdc } from '@/onchain-facts'
 import { parseAmount } from '@/onchain-money'
 
-const ARC_TESTNET_ID = 5042002
+const ARC_MAINNET_ID = 5042
 
 interface Props {
   onClose: () => void
@@ -22,7 +22,7 @@ export default function CreateEventModal({ onClose, onCreated }: Props) {
   const [stakeInput, setStakeInput] = useState('')
   const [maxAttendees, setMaxAttendees] = useState('')
 
-  const usdcFact = getUsdc(ARC_TESTNET_ID)
+  const usdcFact = getUsdc(ARC_MAINNET_ID)
 
   const { writeContract, data: hash, isPending, error } = useWriteContract()
   const { isLoading: isConfirming, isSuccess } = useWaitForTransactionReceipt({ hash })
@@ -52,7 +52,7 @@ export default function CreateEventModal({ onClose, onCreated }: Props) {
       return
     }
 
-    const parsedStake = parseAmount(ARC_TESTNET_ID, stakeInput)
+    const parsedStake = parseAmount(ARC_MAINNET_ID, stakeInput)
     const maxAttendeesNum = parseInt(maxAttendees, 10)
     if (isNaN(maxAttendeesNum) || maxAttendeesNum < 1) {
       toast.error('Max attendees must be at least 1.')

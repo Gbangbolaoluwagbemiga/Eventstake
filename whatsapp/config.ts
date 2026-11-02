@@ -29,13 +29,16 @@ function optional(name: string, fallback: string): string {
 }
 
 // arc-studio-allow-onchain-literal
-const DEFAULT_RPC = 'https://rpc.testnet.arc.io'
-// arc-studio-allow-onchain-literal
-const DEFAULT_CONTRACT = '0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75'
+const DEFAULT_RPC = 'https://rpc.mainnet.arc.io'
 // arc-studio-allow-onchain-literal
 const USDC_ADDRESS = '0x3600000000000000000000000000000000000000'
+// Arc Mainnet chain ID (matches viem's arc.id)
+const ARC_MAINNET_CHAIN_ID = 5042
 
 export function loadConfig() {
+  const contractAddress = optional('EVENTSTAKE_CONTRACT', '')
+  if (!contractAddress) throw new Error('Missing required environment variable: EVENTSTAKE_CONTRACT (set to your Arc Mainnet contract address after deploying)')
+
   return {
     circle: {
       apiKey: require('CIRCLE_API_KEY'),
@@ -53,10 +56,10 @@ export function loadConfig() {
     },
     chain: {
       rpcUrl: optional('EVENTSTAKE_RPC_URL', DEFAULT_RPC),
-      contractAddress: optional('EVENTSTAKE_CONTRACT', DEFAULT_CONTRACT) as `0x${string}`,
+      contractAddress: contractAddress as `0x${string}`,
       usdcAddress: USDC_ADDRESS as `0x${string}`,
       usdcDecimals: 6,
-      chainId: 5042002,
+      chainId: ARC_MAINNET_CHAIN_ID,
     },
     port: Number(optional('PORT', '3001')),
   }

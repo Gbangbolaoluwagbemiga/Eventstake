@@ -1,9 +1,11 @@
 /**
  * EventCheckIn contract config.
- * Update CONTRACT_ADDRESS after deploy.
+ * CONTRACT_ADDRESS: set this to the Arc Mainnet address after running forge create.
+ * The testnet address was 0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75 (Arc Testnet).
  */
 
-export const CONTRACT_ADDRESS = '0x6934ca15d4c05d21cd54355b8fb1aeac5c164f75' as `0x${string}`
+// arc-studio-allow-onchain-literal
+export const CONTRACT_ADDRESS = (import.meta.env['VITE_CONTRACT_ADDRESS'] ?? '') as `0x${string}`
 
 export const CONTRACT_ABI = [
   {

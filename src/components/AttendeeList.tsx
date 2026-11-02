@@ -4,7 +4,7 @@ import { CheckCircle2, Circle } from 'lucide-react'
 import { toast } from 'sonner'
 import { CONTRACT_ABI as ABI, CONTRACT_ADDRESS } from '../contract'
 
-const ARC_TESTNET_ID = 5042002
+const ARC_MAINNET_ID = 5042
 
 interface Props {
   eventId: bigint
@@ -19,7 +19,7 @@ interface Attendee {
 
 export default function AttendeeList({ eventId, isEventLive, onMarked }: Props) {
   const { address: connectedAddress } = useAccount()
-  const publicClient = usePublicClient({ chainId: ARC_TESTNET_ID })
+  const publicClient = usePublicClient({ chainId: ARC_MAINNET_ID })
   const [attendees, setAttendees] = useState<Attendee[]>([])
   const fetchedRef = useRef(false)
   const loading = !fetchedRef.current

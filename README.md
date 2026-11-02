@@ -43,8 +43,8 @@ bun install
 
 | Variable | Purpose |
 |---|---|
-| `EVENTSTAKE_RPC_URL` | Override Arc Testnet RPC — defaults to `https://rpc.testnet.arc.io` |
-| `EVENTSTAKE_CONTRACT` | Override contract address — defaults to the deployed address above |
+| `VITE_CONTRACT_ADDRESS` | Arc Mainnet contract address — set after running `forge create` |
+| `EVENTSTAKE_RPC_URL` | Override Arc Mainnet RPC — defaults to `https://rpc.mainnet.arc.io` |
 
 **MCP server** (`ORGANISER_PRIVATE_KEY` only, for `create_event`):
 
